@@ -5,7 +5,7 @@ import {Banner} from './Components/Banner/Banner';
 import {Slider} from './Components/Slider/Slider';
 import {Contact} from './Components/Contact/Contact';
 import {AboutUs} from './Components/AboutUs/AboutUs';
-import { Carousel } from 'react-responsive-carousel';
+
 
 const App = () => {
   return (
@@ -13,7 +13,6 @@ const App = () => {
 
       <Banner />
       <Card />
-      < Carousel />
       <Slider />
       <AboutUs />
       <Contact />
