@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import {Slide} from '../Slide/Slide';
 import {RightArrow} from '../RightArrow/RightArrow';
 import {LeftArrow} from '../LeftArrow/LeftArrow';
-import {transport} from '../../img/transport.jpg';
-
-
-
 import './Slider.css';
 
 
@@ -15,19 +11,20 @@ class Slider extends Component {
 
         this.state = {
             images: [
-                `{transport}`,
-                "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg",
-                "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg",
-                "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg",
-                "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg",
-                "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/tree-of-life.jpg"
+              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/aurora.jpg",
+              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg",
+              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/city.jpg",
+              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/desert.jpg",
+              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/mountains.jpg",
+              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/redsky.jpg",
+              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/sandy-shores.jpg",
+              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/tree-of-life.jpg"
               ],
               currentIndex: 0,
               translateValue: 0
         }
     }
-    
-// ovo je problematicna funkcija
+      
     goToPrevSlide = () => {
 
         if(this.state.currentIndex === 0) {
@@ -64,6 +61,7 @@ class Slider extends Component {
     render() {
         return (
             <div className="slider">
+              <h3 className="galery">GALERIJA</h3>
                                
                 <LeftArrow goToPrevSlide={this.goToPrevSlide}/>
                 
@@ -78,8 +76,7 @@ class Slider extends Component {
                         ))
                         }
                 </div>
-
-                
+               
                 <RightArrow goToNextSlide={this.goToNextSlide}/>
 
             </div>
@@ -87,5 +84,4 @@ class Slider extends Component {
     }
     
 }
-
 export {Slider};

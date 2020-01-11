@@ -4,7 +4,7 @@ import './AboutUs.css';
 const AboutUs = () => {
     return (
         <div id='aboutUs'>
-            <h3>O nama</h3>
+            <h3>O NAMA</h3>
             <p>Početak firme Forma Ideale datira iz 1995. godine kada je, kao porodična firma, osnovana samostalna zanatska radnja EL-EN. Glavni proizvodni program bili su set stolovi u kombinaciji punog drveta, stakla i pločastog materijala. Zbog svojih skromnih proizvodnih potencijala, EL-EN je postala dobavljač maloprodajnih salona drugih prodavaca nameštaja.
 
 S obzirom na to da je od samog početka odziv kupaca bio izuzetno veliki, potražnja je postala veća od mogućnosti ponude. To je zahtevalo ubrzano širenje proizvodnih kapaciteta firme.
