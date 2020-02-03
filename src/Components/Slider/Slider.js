@@ -60,7 +60,7 @@ class Slider extends Component {
 
     render() {
         return (
-            <div className="slider">
+            <div id="slider" className="slider">
               <h3 className="galery">GALERIJA</h3>
                                
                 <LeftArrow goToPrevSlide={this.goToPrevSlide}/>

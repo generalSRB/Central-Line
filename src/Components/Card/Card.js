@@ -2,14 +2,15 @@ import React from 'react';
 import './Card.css';
 import construction from '../../img/const.jpeg';
 import furniture from '../../img/furniture.jpg';
-import transport from '../../img/transport.jpg';
-import container from '../../img/container2.jpg';
+import transport from '../../img/transportation.jpeg';
+import container from '../../img/containerblue.png';
 import jumboBag from '../../img/jumbo-bag.jpg';
 
 
 const Card = () => {
     return (
         <div id='cards'>
+            <h3>DELATNOST</h3>
             <div className='card-wrapper first-card'>
                 <img className='card-image' src={construction} alt='' />
                 <div className='text-wrapper'>
@@ -43,7 +44,7 @@ const Card = () => {
             <div className='card-wrapper'>
                 <div className='text-wrapper'>
                     <h2>PRODAJA DŽAMBO VREĆA</h2>
-                    <span>Vršimo prodaju standardnih džambo vreća, zatim Q-bag, provodljivih, vreća sa uloškom, vreća za hranu,
+                    <span>Vršimo prodaju standardnih džambo vreća (novih i polovnih), zatim Q-bag, provodljivih, vreća sa uloškom,
                         sa dve ili četiri tačke vešanja, kao džambo vreće izrađene prema Vašim potrebama i željama u saradnji sa našim 
                         partnerima.
                     </span>

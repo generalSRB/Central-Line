@@ -3,6 +3,10 @@
     margin-top: 40px;
 }
 
+.first-card {
+    border-top: solid 1px rgb(255,114,38);
+}
+
 .card-wrapper {
     display: flex;
     justify-content: space-between;
