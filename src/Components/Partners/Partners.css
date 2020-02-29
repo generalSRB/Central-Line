@@ -2,11 +2,11 @@
     align-items: center;
     max-width: 1000px;
     width: 100%;
-    
     margin: 20px auto;
     border-top: solid 1px rgb(255,114,38);
     box-sizing: content-box;
-    padding: 15px;
+    padding-top: 15px;
+
 }
 
 .partners-pull {
@@ -14,6 +14,7 @@
     justify-content: space-between;
     flex-direction: row;
     height: 70px;
+    margin-bottom: 20px;
 }
 
 .partner-link {

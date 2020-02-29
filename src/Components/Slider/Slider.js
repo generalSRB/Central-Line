@@ -11,10 +11,10 @@ class Slider extends Component {
 
         this.state = {
             images: [
-              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/aurora.jpg",
-              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg",
-              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/city.jpg",
-              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/desert.jpg",
+              "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=835&q=80",
+              "https://images.unsplash.com/photo-1574621974239-00deab554d60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=699&q=80",
+              "https://images.unsplash.com/photo-1560562125-ab512e4d9d29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80",
+              "https://images.unsplash.com/photo-1574739782594-db4ead022697?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
               "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/mountains.jpg",
               "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/redsky.jpg",
               "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/sandy-shores.jpg",

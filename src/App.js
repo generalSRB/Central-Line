@@ -8,7 +8,9 @@ import {Partners} from './Components/Partners/Partners';
 import {AboutUs} from './Components/AboutUs/AboutUs';
 
 
+
 const App = () => {
+  
   return (
     <Fragment>
 

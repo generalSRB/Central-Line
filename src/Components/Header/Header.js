@@ -9,7 +9,7 @@ const Header = () => {
         <Headroom>
             <header>
             <div className="header-wrapper">
-                <div>
+                <div className='logo-wrapper'>
                     <a href='/'><img className='logo' src={logo} alt='CentralLine' /></a>
                 </div>
                 <Menu />

@@ -1,14 +1,14 @@
 
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
 }
 
 li {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px;
     font-size: 16px;
     
@@ -32,14 +32,9 @@ a:visited {
 
 a:hover span {
     color: rgb(255,114,38);
-    font-weight: bolder;
     cursor: pointer;
 }
 
-@media all and (max-width: 950px) {
-    li {
-        font-size: 17px;
-    }
-}
+
 
 

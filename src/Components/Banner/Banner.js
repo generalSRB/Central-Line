@@ -11,8 +11,8 @@ const Banner = () => {
                 <Header />
                 {/* <img src={banner} alt='banner' /> */}
                 <div className='hero-content'>
-                     <h1><span className='orange'>B</span>rzo. <span className='orange'>T</span>ačno. <span className='orange'>P</span>ouzdano.
-                    </h1>
+                     <h4><span className='orange'>B</span>rzo. <span className='orange'>T</span>ačno. <span className='orange'>P</span>ouzdano.
+                    </h4>
                 </div>
                
             </div>

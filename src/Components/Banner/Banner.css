@@ -10,14 +10,6 @@
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-
-    /* padding: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto 0;
-    position: relative; */
-
 }
 
 .hero-content {
@@ -30,7 +22,7 @@ img {
     width: 100%;
 }
 
-h1 {
+.hero-content > h4 {
     display: table;
     font-size: 35px;
     color: rgb(10, 10, 10);
@@ -50,8 +42,3 @@ h1 {
     color: rgb(255,114,38);
 }
 
-@media all and (max-width: 1200px) {
-    h1 {
-        font-size: 30px;
-    }
-}
