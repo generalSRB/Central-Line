@@ -34,9 +34,10 @@
 
 .slider {
     position: relative;
-    width: 800px;
-    margin: 15px auto;
-    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 80px 0;
+    height: 600px;
     overflow: hidden;
     white-space: nowrap;
     box-sizing: border-box;
@@ -86,3 +87,5 @@
   .fa-arrow-right:before, .fa-arrow-left:before {
     color: #222
   }
+
+  

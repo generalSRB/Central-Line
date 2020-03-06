@@ -26,9 +26,9 @@ const Contact = () => {
                         <span>E-mail: <a href="mailto:central.linedoo@gmail.com" target="_blanc"> central.linedoo@gmail.com</a> </span>
                     </div>
                 </div>
-                <h3>GDE SMO NA MAPI</h3>
+                <h3 className = 'contact-title'>GDE SMO NA MAPI</h3>
 
-                <iframe title="map" frameBorder="0" style={{ width: "100%", height: "200px", maxWidth:"1000px"}} 
+                <iframe title="map" frameBorder="0" style={{ width: "100%", height: "350px", maxWidth:"1000px"}} 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1416.865562789586!2d20.45379427187645!3d44.745501998225336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a719f1db7d229%3A0xd56906ddc9e6c13e!2z0KHRgtC10LLQsNC90LAg0J7Qv9Cw0YfQuNGb0LAgMTYsINCR0LXQvtCz0YDQsNC0!5e0!3m2!1ssr!2srs!4v1569782684278!5m2!1ssr!2srs">
                 </iframe>
             </div>

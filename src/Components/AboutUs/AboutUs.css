@@ -1,16 +1,24 @@
 
 #aboutUs {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     text-align: center;
     max-width: 1000px;
     width: 100%;
-    margin: 20px auto;
+    margin: 0 auto;
     border-bottom: solid 1px rgb(255,114,38);
     border-top: solid 1px rgb(255,114,38);
-    box-sizing: content-box;
-    padding: 15px 0 15px 0;
-    
+    box-sizing: border-box;
+    padding: 80px 15px;
+    line-height: 1.6;
+}
+
+@media all and (max-width: 470px) {
+        
+    #aboutUs {
+        width: 420px !important;
+        max-width: 100%;
+    }
 }

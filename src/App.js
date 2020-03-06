@@ -6,6 +6,7 @@ import {Slider} from './Components/Slider/Slider';
 import {Contact} from './Components/Contact/Contact';
 import {Partners} from './Components/Partners/Partners';
 import {AboutUs} from './Components/AboutUs/AboutUs';
+import { Footer } from './Components/Footer/Footer';
 
 
 
@@ -13,7 +14,7 @@ const App = () => {
   
   return (
     <Fragment>
-
+      
       <Banner />
       <Card />
       <Slider />
@@ -21,6 +22,7 @@ const App = () => {
      
       <Contact />
       <Partners />
+      <Footer />
     </Fragment>
     
   );

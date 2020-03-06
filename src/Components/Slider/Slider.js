@@ -14,11 +14,7 @@ class Slider extends Component {
               "https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=835&q=80",
               "https://images.unsplash.com/photo-1574621974239-00deab554d60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=699&q=80",
               "https://images.unsplash.com/photo-1560562125-ab512e4d9d29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80",
-              "https://images.unsplash.com/photo-1574739782594-db4ead022697?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/mountains.jpg",
-              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/redsky.jpg",
-              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/sandy-shores.jpg",
-              "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/tree-of-life.jpg"
+              "https://images.unsplash.com/photo-1574739782594-db4ead022697?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
               ],
               currentIndex: 0,
               translateValue: 0
@@ -27,16 +23,16 @@ class Slider extends Component {
       
     goToPrevSlide = () => {
 
-        if(this.state.currentIndex === 0) {
-            return this.setState({
+        if (this.state.currentIndex === 0) {
+            return this.setState ({
               currentIndex: this.state.images.length - 1,
-              translateValue: (this.slideWidth())*this.state.images.length-1 
-            })
+              translateValue: -(this.slideWidth())*(this.state.images.length-1) 
+            }) 
           }
 
-        this.setState(prevState => ({
-            currentIndex: prevState.curentIndex -1,
-            translateValue: prevState.translateValue +(this.slideWidth())
+        this.setState (prevState => ({
+            currentIndex: prevState.currentIndex - 1,
+            translateValue: prevState.translateValue + (this.slideWidth())
         }))    
     }
     
@@ -50,7 +46,7 @@ class Slider extends Component {
         
         this.setState(prevState => ({
           currentIndex: prevState.currentIndex + 1,
-          translateValue: prevState.translateValue -(this.slideWidth())
+          translateValue: prevState.translateValue - (this.slideWidth())
         }));
       }
     
