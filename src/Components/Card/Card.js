@@ -1,9 +1,9 @@
 import React from 'react';
 import './Card.css';
 import construction from '../../img/const.jpeg';
-import furniture from '../../img/furniture.jpg';
-import transport from '../../img/transportation.jpeg';
-import container from '../../img/container2.jpg';
+import furniture from '../../img/workinprogress.jpg';
+import transport from '../../img/redtruck.jpg';
+import container from '../../img/trashbins.jpeg';
 import jumboBag from '../../img/jumbo-bag.jpg';
 
 
@@ -36,7 +36,7 @@ const Card = () => {
                 <img className='card-image' src={container} alt='' />
                 <div className='text-wrapper'>
                     <h1>PRODAJA KONTEJNERA ZA OTPAD</h1>
-                    <span className='card-text'>Vršimo prodaju metalnih i plastičnih kontejnera i kanti raznih zapremina za odlaganje svih vrsta otpada i smeća, koje obezbedjujemo za Vas u saradnji sa našim partnerima. Vaše je samo da odaberete, ostalo je naša briga.</span>
+                    <span className='card-text'>Vršimo prodaju metalnih i plastičnih kontejnera i kanti raznih zapremina za odlaganje svih vrsta otpada i smeća, koje obezbedjujemo za Vas u saradnji sa našim partnerima. Vaše je samo da nam iznesete svoje zahteve i potrebe, ostalo je naša briga.</span>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@ const Card = () => {
                 <div className='text-wrapper'>
                     <h1>PRODAJA DŽAMBO VREĆA</h1>
                     <span className='card-text'>Vršimo prodaju standardnih džambo vreća (novih i polovnih), zatim Q-bag, provodljivih, vreća sa uloškom,
-                        sa dve ili četiri tačke vešanja, kao džambo vreće izrađene prema Vašim potrebama i željama u saradnji sa našim 
+                        sa dve ili četiri tačke vešanja, kao i džambo vreće izrađene prema Vašim potrebama i željama u saradnji sa našim 
                         partnerima.
                     </span>
                 </div>
@@ -55,7 +55,7 @@ const Card = () => {
                 <img className='card-image' src={transport} alt='' />
                 <div className='text-wrapper'>
                     <h1>TRANSPORT ROBE U ZEMLJI</h1>
-                    <span className='card-text'>Vršimo usluge prevoza robe sopstvenim transportnim vozilima na teritoriji Republike Srbije, u skladu sa Vašim zahtevima i potrebama. Vaše je samo da odaberete lokaciju, a naše da Vam bezbedno i na vreme dostavimo robu.</span>
+                    <span className='card-text'>Vršimo usluge prevoza robe sopstvenim transportnim vozilima na teritoriji Srbije, u skladu sa Vašim zahtevima i potrebama. Vaše je samo da odaberete lokaciju, a naše da Vam bezbedno i na vreme dostavimo robu. Mi prevozimo Vaše vredne stvari.</span>
                 </div>
             </div>
         </div>
